@@ -1,11 +1,9 @@
 from flask import Flask, jsonify, request
-from flask_cors import CORS
 import mysql.connector
 from mysql.connector import Error
 from datetime import datetime, timedelta
 
 app = Flask(__name__)
-CORS(app)
 
 hostname = "4rl.h.filess.io"
 database = "sampledb_battleland"
