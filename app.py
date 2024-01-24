@@ -124,6 +124,6 @@ def user_rank(user_id):
 
 if __name__ == '__main__':
     # app.run(debug=True)
-    app.run(debug=True, use_reloader=False)
-    print(app.url_map)
+    app.run(debug=False, host='0.0.0.0')
+
 
